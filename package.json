@@ -1,17 +1,20 @@
 {
-  "name": "@pancakeswap/sdk",
+  "name": "@ramenswapio/sdk",
   "license": "MIT",
-  "version": "2.4.3",
-  "description": "🛠 An SDK for building applications on top of Pancakeswap.",
+  "version": "1.0.1",
+  "description": "🛠 An SDK for building applications on top of Ramenswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-swap-sdk.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamenSwap-io/ramenswap-sdk.git"
+  },
   "keywords": [
-    "pancakeswap",
-    "bsc"
+    "ramenswap",
+    "ezchain"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {
@@ -54,5 +57,13 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/RamenSwap-io/ramenswap-sdk/issues"
+  },
+  "homepage": "https://github.com/RamenSwap-io/ramenswap-sdk#readme",
+  "directories": {
+    "test": "test"
+  },
+  "author": ""
 }
